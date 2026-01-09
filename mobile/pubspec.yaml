@@ -1,0 +1,30 @@
+name: mobile
+description: A new Flutter project for AI Spot DEX.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # Web3 Dependencies
+  web3dart: ^2.7.3
+  http: ^1.1.0
+  # Secure Storage for Private Keys
+  flutter_secure_storage: ^9.0.0
+  # State Management
+  provider: ^6.1.1
+  # UI/UX
+  google_fonts: ^6.1.0
+  flutter_markdown: ^0.6.14 # For rendering AI responses
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

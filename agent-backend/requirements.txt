@@ -1,0 +1,6 @@
+agentscope
+fastapi
+uvicorn
+web3
+python-dotenv
+openai
