@@ -11,10 +11,22 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   # Web3 Dependencies
-  web3dart: ^2.7.3
   http: ^1.1.0
+  convert: ^3.1.1
+  web3dart: ^3.0.1
+  wallet: ^0.0.18
   # Secure Storage for Private Keys
   flutter_secure_storage: ^9.0.0
+  # Substrate Dependencies
+  polkadart: ^1.0.0
+  polkadart_scale_codec: ^2.0.0
+  substrate_metadata: ^2.0.0
+  polkadart_keyring: ^0.7.2
+  sr25519: ^0.7.2
+  ss58: ^2.0.0
+  bip39_mnemonic: ^4.0.1
+  pointycastle: ^4.0.0
+  local_auth: ^3.0.0
   # State Management
   provider: ^6.1.1
   # UI/UX

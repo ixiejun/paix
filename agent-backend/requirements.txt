@@ -3,4 +3,9 @@ fastapi
 uvicorn
 web3
 python-dotenv
-openai
+openai>=2.0.0
+
+httpx>=0.28.1,<1.0.0
+
+pytest
+pytest-asyncio
